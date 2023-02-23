@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F8F4EA;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.Name-hero {
+    font-size: 31px;
+    padding-left: 40px;
+    padding-top: 29px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    flex: 1;
+}
+
+.menu-navbar {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+} 
+
+.home {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #624F82;
+}
+
+.profile {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #624F82;
+}
+
+.logout {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #624F82;
+}
+
+.About-us-head {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-bottom: 39px;
+    font-weight: bold;
+    font-size: 39px;
+}
+
+.About-us-img {
+    width: 999px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.About-us-pg {
+    width: 999px;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+
+.VM-head {
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.VM-text {
+    width: 600px;
+    font-size: 23px;
+}
+
+.Vision-Mision {
+    padding-top: 50px;
+    display: flex;
+    margin-left: 20px;
+    gap: 99px;
+    padding-bottom: 90px;
+}
+
+.Values {
+    padding-left: 20px;
+    padding-bottom: 111px;
+}
+
+.tb-th {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tb-bd {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+
+.Documentations {
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+    padding-bottom: 99px;
+}
+
+.cu-title {
+    padding-left: 20px;
+    padding-bottom: 37px;
+    font-size: 33px;
+    padding-top: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.cu-style {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer {
+    background-color: #F8F4EA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4D455D;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
